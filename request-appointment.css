@@ -1,0 +1,141 @@
+.request-appointment{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+.request-appointment img{
+    /* position:relative; */
+}
+.form{
+    background-color:#00304099 ;
+    border: 4px solid #003040;
+    height: 700px;
+    border-radius: 5px;  
+    padding: 0px 60px 0px 60px; 
+    position: absolute;
+}
+@media(max-width:1060px){
+    .form{
+        background-color:#00304099 ;
+        border: 4px solid #003040;
+        height: 680px;
+        border-radius: 5px;  
+        padding: 0px 30px 0px 30px; 
+        position: absolute;
+    }
+    .request-appointment img{
+        display: none;
+    }
+}
+.form h3{
+    color: aliceblue;
+    text-align: center; 
+    padding: 10px;
+}
+.form h3:hover{
+    color: #003040;
+}
+.form label{  
+    padding: 20px 0px 3px 10px;
+    color: white;
+    font-size: 15px;
+}
+.form input{
+    width: 100%;
+    height: 35px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.form input:focus{
+    box-shadow:2px 2px 5px 5px #003040;
+}
+.form select{
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    padding-left: 5px;
+}
+.form button{
+    width: 40%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    background-color:#003040;
+    color: white;
+    border: 2px solid white;
+    transition: all 0.5s;
+    margin-top: 0px;
+}
+
+.form button:hover{
+    background-color:#036687;
+}
+
+.form img{
+    height: 20px;
+    width: 20px;
+}
+@media(max-width:600px){
+    .form button{
+        width: 45%;
+font-size: 13px;
+    }
+
+}
+@media(max-width:500px){
+    .form button{
+        width: 47%;
+        height: 32px;
+font-size: 12px;
+    }
+
+}
+@media(max-width:400px){
+    .form button{
+        width: 60%;
+        height: 32px;
+font-size: 12px;
+    }
+
+}
+.next{
+    width: 96%;
+    display: flex;
+    justify-content:end ;
+}
+.next button{
+    width: 140%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    background-color:#0CC0DF;
+    color: white;
+    border: 2px solid white;
+    transition: all 0.5s;
+    margin-top: 20px;
+}
+@media(max-width:700px){
+    .next button{
+        width: 100px;
+
+    }
+
+}
+@media(max-width:500px){
+    .next button{
+        width: 70px;
+        height: 30px;
+
+    }
+
+}
+.next button:hover{
+    background-color: #003040;
+}

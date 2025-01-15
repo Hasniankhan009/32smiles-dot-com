@@ -1,0 +1,40 @@
+
+div.card-link{
+    background-color: #003040;
+    border: 3px solid white;
+    height: 200px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s;
+}
+div.card-link:hover{
+    background-color: #036687;
+   border: 2px solid #003040;
+}
+.card-link h5{
+    color: white;
+}
+.card-link p{
+    text-align: center;
+    color: white;
+    font-size: 13px;
+}
+.card-link button{
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #003040;
+    color: white;
+    transition: all 0.4s;
+
+}
+.card-link button:hover{
+    background-color: #036687;
+}
+.case-study-main{
+    /* background-image: url(images/case-study\ bg.PNG); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}

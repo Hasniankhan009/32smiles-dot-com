@@ -1,0 +1,31 @@
+#side_navbar{
+    height: 100%;
+}
+.about-child{
+    padding:20px 30px 0px 30px;
+}
+.about-child h2{
+    color: #003040;
+    font-weight: lighter;
+    
+}
+.cards{
+    padding: 15px;
+    /* border: 2px solid red; */
+}
+.cards h2{
+    text-align: center;
+    color: #003040;
+}
+.card-main{
+    padding: 6px;
+
+}
+.card{
+    padding: 0;
+    margin:20px 40px 0px 40px;
+    transition: all 0.4s;
+}
+.card:hover{
+    transform: scale(1.03);
+}

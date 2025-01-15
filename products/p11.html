@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="bootstrap.bundle.min.js"></script>
+
+
+
+       <link rel="stylesheet" href="owl.carousel.min.css">
+       <link rel="stylesheet" href="owl.theme.green.min.css">
+       <link rel="stylesheet" href="p1.css">
+       <link
+       rel="stylesheet"
+       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+     />
+</head>
+<body>
+     <!-- header -->
+
+      <!-- End header -->
+  
+      <div class="container marketing animate__animated  animate__fadeInLeft" id="table_body">
+  
+      
+    
+    
+        <!-- START THE FEATURETTES -->
+    
+        <hr class="featurette-divider">
+    
+        <!-- /END THE FEATURETTES -->
+    
+      </div>
+  
+  
+  
+  
+      <script src="file.js"></script>
+      <script>
+        for (var i = 10; i < 11; i++) {
+      
+  
+  document.getElementById("table_body").innerHTML += `
+  
+              <div class=" row featurette">
+                <div class="card col-md-5">
+            <img src='${SkinProducts[i].image_url}' class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" >
+           
+          </div>
+          <div class=" col-md-7 d-flex align-items-center justify-content-center flex-column text-center animate__animated animate__fadeInRight">
+            <h2 class="featurette-heading fw-normal lh-1 text-danger "><span class="text-body-secondary text-bold"></span>${SkinProducts[i].Name} </h2>
+          
+          <h3 class="featurette-heading fw-normal lh-1 text-info ">  ${SkinProducts[i].category}</h3>
+          
+            <h4 class="lead"><span>price :   </span> ${SkinProducts[i].price}</h4>
+        <div data-tooltip="Price:-${SkinProducts[i].price}" class="button">
+  <div class="button-wrapper">
+    <div class="text bg-success ">Buy Now</div>
+      <span class="icon">
+        <svg viewBox="0 0 16 16" class="bi bi-cart2 bg-success"  height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z" class="success "></path>
+  </svg>
+      </span>
+    </div>
+  </div>    
+          </div>
+          
+
+
+        </div>
+        <hr class="featurette-divider">
+ 
+  
+          ` 
+        }
+      </script>
+  <!-- /* From Uiverse.io by JaydipPrajapati1910 */  -->
+  
+  <!-- card 3 -->
+  <h5 class="text-center animate__animated animate__fadeInUp" >From the manufacturers</h5>
+  <div class="animate__animated animate__fadeInUp" id="contaniner">
+              
+    <div><img src="img/cards/t1.jpg" alt=""><p>Colgate Sensitive toothpaste contains
+
+      the maximum FDA-allowed anti-sensitivity into the teeth to
+      
+      desensitize the nerve.</p></div>
+    <div><img src="img/cards/t2.jpg" alt=""><p>Colgate Sensitive toothpaste is
+
+      dentist-recommended and protects anti-sensitivity into the teeth to
+      
+      teeth from cavities.</p></div>
+    <div><img src="img/cards/t3.jpg" alt=""><p>Colgate Sensitive toothpaste has a fresh
+
+      mint flavor for long-lasting freshness to
+      
+      protect from bad breath.</p></div>
+      
+  </div>
+  <!-- flex card -->
+  <div class="container">
+    <div class="p-5 rounded mt-3">
+      <div><img src="img/cards/nav.jpg" alt="">
+          </div>
+        </div>
+        </div>
+      </div>
+      <!-- end -->
+  
+  
+</body>
+</html>

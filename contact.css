@@ -1,0 +1,73 @@
+#side_navbar{
+    height: 78vh;
+}
+.title-contact{
+    
+    padding: 20px;
+    text-align: center;
+}
+.title-contact h1{
+     color: #003040;
+}
+
+.appoinment-contact{
+    text-align: center;
+    border-top: 3px solid #003040;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 70px 0px 70px;
+}
+.appoinment-contact h6{
+    font-size: 13px;
+}
+.appoinment-contact button{
+    margin-top: 20px;
+    /* width: 260px; */
+    padding: 10px;
+    background-color: #0CC0DF;
+    outline: none;
+    border-radius: 5px;
+    font-size: 19px;
+    border: 2px solid white;
+    transition: all 0.5s;
+}
+.appoinment-contact a{
+    color: #fff;
+    text-decoration: none;
+}
+.appoinment-contact button:hover{
+    background-color: #003040;
+}
+.appoinment-contact img{
+   margin-bottom: 3px;
+}
+.give-contact{
+    text-align: center;
+}
+.give-contact h2{
+    color: #003040;
+}
+
+.give-contact a{
+    color: #003040;
+    text-decoration: none;
+}
+.timing-contact {
+    text-align: center;
+    margin-top: 50px;
+}
+.timing-contact ul{
+display: flex;
+margin:10px;
+justify-content:space-around;
+align-items: center;
+list-style: none;
+}
+
+.location-contact{
+    margin-top: 50px;
+    /* padding: 10px 150px 20px 150px; */
+    text-align: center;
+}

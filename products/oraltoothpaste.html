@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oraltoothpaste</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    <!-- card container -->
+   
+        <div class="container py-5">
+         <div class="row" id="card_body">
+         </div>
+        </div>
+  
+</body>
+<script src="oraltoothpaste.js"></script>
+<script src="bootstrap.bundle.min.js"></script>
+
+
+
+<script>
+     for(var i = 0; i < oraltoothpaste.length; i++) {
+            document.getElementById("card_body").innerHTML +=`
+           
+      <div class="card col-md-8 col-lg-4 col-xl-4 mb-2 ">           
+        <div class="card_body m-2 ">
+          <img src="${oraltoothpaste[i].image_url}"
+            class="card-img-top">
+          <div class="card-body ">
+            <div class="text-center">
+              <h5 class="card-title">${oraltoothpaste[i].Name}</h5>
+              <p class="text-muted mb-4">${oraltoothpaste[i].category}  </p>
+            </div>
+            <div>
+              
+            <div class="d-flex justify-content-between total font-weight-bold mt-4">
+             
+                      <a href="${oraltoothpaste[i].url}" <button class="button2">Viwe detial</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+            `};
+</script>
+</html>
